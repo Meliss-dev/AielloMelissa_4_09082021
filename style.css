@@ -1059,3 +1059,7 @@ footer li{
     line-height: 50px;
     color: black;
 }
+
+footer{
+    color:black !important;
+}
