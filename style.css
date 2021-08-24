@@ -3,6 +3,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
+    color: red;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -100,7 +101,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
 }
 
 .d-bloc button:hover {
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #0f2537!important;
+    color: black;
 }
 
 .container {
@@ -741,6 +742,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -840,11 +842,22 @@ h4 {
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
+    
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
     }
+
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+
+    .navbar .nav li{
+        margin-right: 20px;
+        margin-left:20px;
+    }
+
+    .site-navigation{
+        padding-right: 50px;
     }
 }
 
@@ -875,6 +888,7 @@ h4 {
     .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+        width: 100%;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -1043,5 +1057,5 @@ h4 {
 
 footer li{
     line-height: 50px;
-    color: #0f2537 !important;
+    color: black;
 }
