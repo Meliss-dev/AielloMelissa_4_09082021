@@ -1073,3 +1073,7 @@ footer{
 .italic{
     font-style: italic;
 }
+
+.citation{
+    color: black;
+}
